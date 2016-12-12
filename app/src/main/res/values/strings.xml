@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BitDash</string>
+
+    <string-array name="app_function_list">
+        <item>Current Bitcoin Price</item>
+        <item>Bitcoin Price Chart</item>
+        <item>Block Information</item>
+        <item>Address Balance</item>
+    </string-array>
+
+    <string name="price_update_button">Update Price</string>
+
+    <string name="bitcoin_name">BitCoin</string>
+
+    <string name="last_updated">Last Updated</string>
+
+    <string name="one_day_radio">Today</string>
+
+    <string name="five_day_radio">Last five days</string>
+
+    <string name="block_search">Search for a Block</string>
+    <string name="block_previous">Previous Block</string>
+    <string name="block_next">Next Block</string>
+
+    <string name="address_search">Search for an address</string>
+
+    <string name="address_list">Stored Addresses:</string>
+    <string name="address_current_address">Current Address:</string>
+    <string name="address_balance">Balance:</string>
+    <string name="address_total_received">Total Received:</string>
+    <string name="address_search_title">BitCoin Address Search</string>
+    <string name="address_search_prompt">Enter an Address:</string>
+    <string name="address_retry_title">Invalid Address Entered, Please Retry</string>
+    <string name="address_retry_prompt">Enter an Address:</string>
+    <string name="address_search_okay">Search</string>
+    <string name="address_search_cancel">Cancel</string>
+    <string name="address_save_button">Save</string>
+    <string name="address_delete_button">Delete</string>
+    <string name="address_saved_toast">Address saved!</string>
+    <string name="address_deleted_toast">Address deleted!</string>
+
+    <string name="block_search_prompt">Enter a Block number or hash:</string>
+    <string name="block_search_title">Block Search</string>
+    <string name="block_search_okay">Search</string>
+    <string name="block_search_cancel">Cancel</string>
+    <string name="block_retry_prompt">Enter an Block number or hash:</string>
+    <string name="block_retry_title">Invalid Block Number or Hash Entered, Please Retry.</string>
+
+    <string name="block_number">Block Number:</string>
+    <string name="block_hash">Block Hash:</string>
+    <string name="previous_block">Previous Block:</string>
+    <string name="next_block">Next Block:</string>
+    <string name="block_confirmations">Confirmations:</string>
+    <string name="block_size">Block Size:</string>
+
+</resources>
