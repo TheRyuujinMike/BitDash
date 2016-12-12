@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/blockInput"
+        android:orderInCategory="2"
+        android:title="@string/block_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/blockPrevious"
+        android:orderInCategory="3"
+        android:title="@string/block_previous"
+        android:icon="@drawable/ic_chevron_left_black_24dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/blockNext"
+        android:orderInCategory="4"
+        android:title="@string/block_next"
+        android:icon="@drawable/ic_chevron_right_black_24dp"
+        app:showAsAction="always"
+        />
+
+
+</menu>

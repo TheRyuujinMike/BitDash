@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical"
+    tools:context="edu.temple.bitdash.AddressBalanceFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:textColor="@color/addressListColor"
+        android:textAlignment="center"
+        android:paddingTop="13dp"
+        android:text="@string/address_list"/>
+
+    <Spinner
+        android:id="@+id/address_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/addressListColor"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:text="@string/address_current_address"/>
+
+    <TextView
+        android:id="@+id/current_address_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/addressColor"
+        android:textAlignment="center"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/addressListColor"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:text="@string/address_balance"/>
+
+    <TextView
+        android:id="@+id/balance_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/addressColor"
+        android:textAlignment="center"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/addressListColor"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:text="@string/address_total_received"/>
+
+    <TextView
+        android:id="@+id/total_received_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/addressColor"
+        android:textAlignment="center"
+        android:paddingTop="5dp" />
+
+    <Button
+        android:id="@+id/address_add_delete_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

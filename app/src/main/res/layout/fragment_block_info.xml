@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="edu.temple.bitdash.BlockInfoFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/blockListColor"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/block_number"/>
+
+    <TextView
+        android:id="@+id/block_number_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/blockColor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/blockListColor"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/block_hash"/>
+
+    <TextView
+        android:id="@+id/block_hash_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/blockColor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/blockListColor"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/block_size"/>
+
+    <TextView
+        android:id="@+id/block_size_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/blockInfoColor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/blockListColor"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/block_confirmations"/>
+
+    <TextView
+        android:id="@+id/block_confirmation_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/blockInfoColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/blockListColor"
+            android:paddingTop="10dp"
+            android:paddingBottom="2dp"
+            android:text="@string/previous_block"/>
+
+    <TextView
+        android:id="@+id/previous_number_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/blockColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/blockListColor"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:text="@string/next_block"/>
+
+
+        <TextView
+            android:id="@+id/next_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textColor="@color/blockColor" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ビットダッシュ</string>
+
+    <string-array name="app_function_list">
+        <item>現在のビットコイン価格</item>
+        <item>ビットコイン価格表</item>
+        <item>ブロック情報</item>
+        <item>アドレスの残高</item>
+    </string-array>
+
+    <string name="price_update_button">価格を更新する</string>
+
+    <string name="bitcoin_name">ビットコイン</string>
+
+    <string name="last_updated">最後の更新</string>
+
+    <string name="one_day_radio">今日</string>
+
+    <string name="five_day_radio">最後の五日間</string>
+
+    <string name="block_search">ブロックを検索する</string>
+    <string name="block_previous">前のブロック</string>
+    <string name="block_next">次のブロック</string>
+
+    <string name="address_search">アドレスを検索する</string>
+
+    <string name="address_list">メモリ内のアドレス:</string>
+    <string name="address_current_address">現アドレス</string>
+    <string name="address_balance">残高:</string>
+    <string name="address_total_received">受け取った総額:</string>
+    <string name="address_search_title">ビットコインのアドレスを検索する</string>
+    <string name="address_search_prompt">アドレスを入力する:</string>
+    <string name="address_retry_title">アドレスが無効です。もう一度お試しください。</string>
+    <string name="address_retry_prompt">アドレスを入力する:</string>
+    <string name="address_search_okay">検索を開始する</string>
+    <string name="address_search_cancel">キャンセル</string>
+    <string name="address_save_button">保存する</string>
+    <string name="address_delete_button">削除</string>
+    <string name="address_saved_toast">アドレスが保存されました！</string>
+    <string name="address_deleted_toast">アドレスが削除されました！</string>
+
+    <string name="block_search_prompt">ブロックの番号またはハッシュを入力する:</string>
+    <string name="block_search_title">ブロックを検索する</string>
+    <string name="block_search_okay">検索する</string>
+    <string name="block_search_cancel">キャンセル</string>
+    <string name="block_retry_prompt">ブロックの番号またはハッシュを入力する:</string>
+    <string name="block_retry_title">ブロック番号またはハッシュが無効です。もう一度お試しください.</string>
+
+    <string name="block_number">ブロックの番号:</string>
+    <string name="block_hash">ブロックのハッシュ:</string>
+    <string name="previous_block">前のブロック:</string>
+    <string name="next_block">次のブロック:</string>
+    <string name="block_confirmations">確認された回数:</string>
+    <string name="block_size">ブロックのサイズ:</string>
+
+</resources>
